@@ -1,0 +1,13 @@
+body{
+    background-image:url(Images/vines.jfif);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+a:visited{
+    color: rgb(23, 37, 230);
+}
+header{
+    background-color: chartreuse;
+    width: 23rem;
+}
