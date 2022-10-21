@@ -1,0 +1,49 @@
+header{
+    background-image: url(Images/building.jpg);
+    background-size: cover;
+    color: white;
+    margin: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+nav{
+    text-align: center;
+}
+nav>a{
+    color: white;
+    padding: 1rem;
+}
+body{
+    background-color: #F15A29;
+    margin: 1rem;
+}
+h1, h2{
+    text-align: center;
+    margin: .5rem;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+img{
+    max-width: 100%;
+    width: 100%;
+}
+.contactus{
+    background-color: white;
+    color: #F15A29;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.menu div{
+    display: inline-block;
+    width: 47%;
+    vertical-align: top;
+    margin-right: .5rem;
+}
+@media (min-width: 1200px){
+img{
+    max-width: 24%;
+    vertical-align: top;
+}
+}
