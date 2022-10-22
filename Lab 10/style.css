@@ -65,10 +65,11 @@ h1{
     font-size: 250%;
 }
 ul{
-    margin: 3rem;
+    margin: 1rem;
+    padding-left: 5rem;
 }
 h1, h2, h3{
-    margin: .10rem;
+    margin: .20rem;
 }
 h3{
     text-align: center;
