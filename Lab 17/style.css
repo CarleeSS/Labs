@@ -66,10 +66,10 @@ header>img{
 }
 .hamburger hr{
     margin: .75rem 0;
-    border: 2px solid white;
+    border: 2px solid #fff;
 }
 header nav{
-    background-color: #0b132b;
+    background-color: #fff;
     position: fixed;
     width: 100%;
     top: 4.75rem;
@@ -77,17 +77,17 @@ header nav{
 }
 header nav a{
     display: block;
-    color: #00e3c8;
+    color: #f9545b;
     text-align: center;
     text-decoration: none;
     padding: 3rem;
-    border: 1px solid #5bc0b4;
+    border: 1px solid #f9545b;
 }
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0b132b85;
+    background-color:#fdf6e4;
     width: 100%;
 }
 header nav.show{
@@ -115,5 +115,5 @@ form{
     flex-direction: column;
 }
 @media (min-width: 1200px){
-
+    
 }
