@@ -4,7 +4,7 @@
     background-size: cover;
 }
 .title h1, p{
-    margin: 1rem;
+    margin: .5rem;
 }
 body{
     background-color: #fdf6e4;
@@ -132,7 +132,7 @@ footer img{
     height: 4rem;
 }
 .order div{
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
     padding: 1rem;
@@ -150,13 +150,20 @@ nav a:hover{
 nav img{
     max-width: 10%;
 } 
+.order div{
+    max-height: 10rem;
+}
+.order div>img{
+    max-width: 10%;
+    width: 10%;
+}
 @media (min-width: 1200px){
     .about{
             display: grid;
             grid-template-columns: 1fr 2fr;
             grid-template-rows: 3rem 11rem;
-            width: 80%;
-            margin: 3rem;
+            width: 95%;
+            margin: 2rem;
             gap: 1rem;
         }
     .about img{
@@ -170,8 +177,8 @@ nav img{
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 3rem 11rem;
-        width: 80%;
-        margin: 3rem;
+        width: 95%;
+        margin: 2rem;
         gap: 1rem;
     }
     .hours img{
@@ -194,8 +201,9 @@ nav img{
     }
     header nav a{
         border: none;
-        padding: 2rem;
+        padding: 1rem;
         display: inline-block;
+        justify-content: flex-end;
     }
     footer img{
         height: 4rem;
@@ -208,5 +216,12 @@ nav img{
     }
     .title p{
         font-size: 2rem;
+    }
+    .order div{
+        max-height: 5rem;
+    }
+    .order div>img{
+        max-width: 5%;
+        width: 5%;
     }
 }
