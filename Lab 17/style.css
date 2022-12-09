@@ -47,8 +47,8 @@ div>h2{
     margin: 2rem;
 }
 div>img{
-    max-width: 10%;
-    width: 10%;
+    max-width: 30%;
+    width: 30%;
 }
 form>h3{
     color: #f9545b;
@@ -123,11 +123,16 @@ form{
 footer{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #2aac92;
     margin-top: 1rem;
 }
+footer img{
+    margin-top: .5rem;
+    height: 4rem;
+}
 .order div{
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
     padding: 1rem;
@@ -138,8 +143,9 @@ nav a:hover{
 }
 .footer li{
     list-style: none;
+}
+.footer li a{
     color: #fff;
-    margin: 1rem;
 }
 nav img{
     max-width: 10%;
@@ -191,7 +197,16 @@ nav img{
         padding: 2rem;
         display: inline-block;
     }
-    footer{
+    footer img{
         height: 4rem;
+    }
+    .title{
+        padding: 6rem 5rem;
+    }
+    .title h1{
+        font-size: 5rem;
+    }
+    .title p{
+        font-size: 2rem;
     }
 }
