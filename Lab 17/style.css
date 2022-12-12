@@ -120,6 +120,12 @@ form{
     flex-direction: column;
     width: 49%;
 }
+input{
+    color: #fff;
+    background-color: #f9545b;
+    border: unset;
+    margin: .5rem;
+}
 footer{
     display: flex;
     justify-content: space-between;
