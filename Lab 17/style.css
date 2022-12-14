@@ -23,9 +23,6 @@ body{
 .hours{
     background-color: #fff;
 }
-.order{
-    background-color: #fff;
-}
 .order div{
     background-color: #f9545b;
 }
@@ -88,6 +85,13 @@ header nav a{
     padding: 3rem;
     border: 1px solid #f9545b;
 }
+.hours span{
+    font-weight: 700;
+    margin-right: 2rem;
+}
+.hours li:last-child span{
+    margin-right: 5rem;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -118,13 +122,22 @@ header nav.show{
 form{
     display: inline-flex;
     flex-direction: column;
-    width: 49%;
+    background-color: #fff;
+    width: 42%;
+    margin: 1rem;
+    align-items: center;
 }
-input{
+input[type=Submit]{
     color: #fff;
     background-color: #f9545b;
     border: unset;
     margin: .5rem;
+    width: 10rem;
+}
+input[type=Number]{
+    border-color: #2aac92;
+    background-color: #fdf6e4;
+    width: 4rem;
 }
 footer{
     display: flex;
@@ -154,7 +167,7 @@ nav a:hover{
     color: #fff;
 }
 nav img{
-    max-width: 10%;
+    max-width: 20%;
 } 
 .order div{
     max-height: 10rem;
@@ -195,7 +208,7 @@ nav img{
             justify-self: flex-end;
         }
     form{
-        width: 33%;
+        width: 30%;
     }
     .hamburger{
         display: none;
@@ -208,8 +221,8 @@ nav img{
     header nav a{
         border: none;
         padding: 1rem;
+        width: 7rem;
         display: inline-block;
-        justify-content: flex-end;
     }
     footer img{
         height: 4rem;
